@@ -1,0 +1,41 @@
+{
+  "aws": {
+    "path": "uploads/",
+    "region": "us-east-1",
+    "acl": "public-read"
+  },
+
+  "cleanup": {
+    "versions": true,
+    "original": false
+  },
+
+  "original": {
+    "awsImageAcl": "public-read",
+    "format": "png"
+  },
+
+  "versions": [{
+    "maxHeight": 1040,
+    "maxWidth": 1040,
+    "format": "png",
+    "suffix": "-large"
+  },{
+    "maxWidth": 780,
+    "suffix": "-medium",
+    "format": "png"
+  },{
+    "maxWidth": 320,
+    "suffix": "-small",
+    "format": "png"
+  },{
+    "maxHeight": 100,
+    "format": "png",
+    "suffix": "-thumb1"
+  },{
+    "maxHeight": 150,
+    "maxWidth": 150,
+    "format": "png",
+    "suffix": "-square"
+  }]
+}
